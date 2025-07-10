@@ -1,0 +1,37 @@
+#hello world
+print("hello world")
+
+#Operators
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+add=a+b
+sub=a-b
+div=a/b
+mod=a%b
+print(f"sum is{add}")
+print(f"sub is{sub}")
+print(f"div is{div}")
+print(f"mod is{mod}")
+
+#input
+user_name= input("enter your name")
+user_age= int(input("enter your age:"))
+user_rollno=int(input("enter your rollno"))
+print(f" my name is {user_name}")
+print(f"my age is{user_age}")
+print(f"my rollno is{user_rollno}")
+
+
+#boolean
+user_age=20
+is_adult=user_age>=18
+print("are you an adult ?",is_adult)
+
+
+#Question
+user_name=(input("enter your name"))
+user_age=int(input("enter your age"))
+user_rollno=int(input("enter your rollno"))
+user_address=(input("enter your address"))
+is_adult=user_age>=18
+print(is_adult)
