@@ -33,5 +33,10 @@ user_name=(input("enter your name"))
 user_age=int(input("enter your age"))
 user_rollno=int(input("enter your rollno"))
 user_address=(input("enter your address"))
+print(f"your name is {user_name}")
+print(f"your age is {user_age}")
+print(f"your rollno is {user_rollno}")
+print(f"your address is {user_address}")
 is_adult=user_age>=18
-print(is_adult)
+print("are you an adult ?",is_adult)
+
