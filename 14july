@@ -1,0 +1,50 @@
+#list=["pankaj","deepanjali"]
+#list.append("munish")
+#print(list)
+
+
+#list.insert(1,"munish")
+#print(list)
+
+#list.remove("pankaj")
+#print(list)
+
+#list.pop()
+#print(list)
+
+#list.reverse()
+#print(list)
+
+#s="Tushar"
+#print(len(s))
+
+#print(s.upper)
+#print(s.upper())
+
+#print(s.lower)
+#print(s.lower())
+
+
+#a=int(input("enter first number"))
+#b=int(input("enter second number"))
+#sum=a+b
+#print(f"sum is {sum}")
+
+
+
+
+#a=5
+#print(a>=3 and a<=4)
+
+#a=5
+#print(a>=3 or a<=4)
+
+#list=[1,2,3,4,5,6]
+#print(4 in list)
+
+#list=[1,2,3,4,5,6]
+#print(43 not in list)
+
+# a=[1,2,3]
+# b=[1,2,3]
+# print(a is b)
