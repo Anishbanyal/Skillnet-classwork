@@ -20,6 +20,10 @@ else:
 
 
 
+
+
+
+
 # WATER  BOTTLES
 
 total_bottles=int(input("enter total numbers of bottles:"))
@@ -31,6 +35,9 @@ while total_bottles>0:
     total_bottles-=bottles_drank
     day+=1
 print("no more bottles left")
+
+
+
 
 
 
