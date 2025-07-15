@@ -1,0 +1,67 @@
+# CALCULATOR
+
+choice=int(input("(1 for add/2 for sub/3 for mul/4 for div)"))
+num1=float(input("enter first number:"))
+num2=float(input("enter second number:"))
+if choice==1:
+    print(f"{num1}+{num2}={num1+num2}")
+elif choice==2:
+    print(f"{num1}-{num2}={num1-num2}")
+elif choice==3:
+    print(f"{num1}*{num2}={num1*num2}")
+elif choice==4:
+    if num2!=0:
+        print(f"{num1}/{num2}={num1/num2}")
+    else:
+        print("not divisible by zero")
+else:
+    print("wrong choice")
+
+
+
+
+# WATER  BOTTLES
+
+total_bottles=int(input("enter total numbers of bottles:"))
+bottles_drink_per_day=int(input("enter bottle drink per day:"))
+day=1
+while total_bottles>0:
+    bottles_drank=min(bottles_drink_per_day,total_bottles)
+    print(f"day{day}: bottles drank:{bottles_drank} bottles left:{total_bottles-bottles_drank}")
+    total_bottles-=bottles_drank
+    day+=1
+print("no more bottles left")
+
+
+
+
+
+
+# RESTAURANT TIP CALCULATOR
+
+bill_amount=float(input("enter bill amount: "))
+friends=int(input("enter number of friends: "))
+split_bill=bill_amount/friends
+print(f"each person bill is: {split_bill}")
+choice=int(input("1.10%/2.20%/3.30%/4.40%/5.50%/6.customise tip: "))
+if choice==1:
+    tip=0.10
+elif choice==2:
+    tip=0.20
+elif choice==3:
+    tip=0.30
+elif choice==4:
+    tip=0.40
+elif choice==5:
+    tip=0.50
+elif choice==6:
+    tip=float(input("enter customize tip(in %):"))/100
+else:
+    print("default tip=10%")
+    tip=0.10
+tip_amount=bill_amount*tip
+print(f"tip amount {tip_amount}")
+total_bill=bill_amount+tip_amount
+print(f"total bill {total_bill}")
+
+
